@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Preparing a CNCF Sandbox Application: A Maintainer&#x27;s View from Apicurio Registry</title>
+<style>body{margin:0;background:#f5f3ef;color:#242424;font:clamp(18px,2.1vw,28px) system-ui}section{display:none;box-sizing:border-box;min-height:100vh;padding:6vw}section.active{display:block}h1{font-size:clamp(28px,4vw,54px);max-width:1000px}p,li{max-width:1100px;line-height:1.5}small{color:#80502e}nav{position:fixed;bottom:12px;right:20px}button{font-size:18px;padding:8px}.notes{display:none;background:#e2efea;padding:20px}body.notes-on .notes{display:block}@media print{section{display:block;break-after:page;min-height:90vh}nav,.notes{display:none!important}}</style>
+<body>
+<section id="slide-1" class="active">
+<small>1 / 7</small>
+<h1>The question</h1>
+<p>Preparing a CNCF Sandbox Application: A Maintainer&#x27;s View from Apicurio Registry</p>
+<aside class="notes">Explain the evidence, then its boundary. Use the corresponding section in PRESENTATION_GUIDE.md.</aside>
+</section>
+<section id="slide-2" class="">
+<small>2 / 7</small>
+<h1>A decision to defer is part of the story</h1>
+<p>In January 2024, I closed Apicurio Registry’s earlier Sandbox application while branding questions were resolved and the project explored its relationship with xRegistry. The public comment is useful because it records a decision, not a retrospective invented to make acceptance look inevitable.</p>
+<aside class="notes">Explain the evidence, then its boundary. Use the corresponding section in PRESENTATION_GUIDE.md.</aside>
+</section>
+<section id="slide-3" class="">
+<small>3 / 7</small>
+<h1>Explain scope in terms outsiders can verify</h1>
+<p>The renewed application identifies repository scope and describes the consolidation of Studio functionality. It distinguishes a runtime implementation from a neighboring specification and describes alignment work. These are application statements: a reader should not turn intended conformance or ecosystem positioning into independently verified technical guarantees.</p>
+<aside class="notes">Explain the evidence, then its boundary. Use the corresponding section in PRESENTATION_GUIDE.md.</aside>
+</section>
+<section id="slide-4" class="">
+<small>4 / 7</small>
+<h1>A passed vote is not the end of onboarding</h1>
+<p>The March 2026 vote passed. A later comment explicitly required the contribution agreement before onboarding, and issue #495 lists project and foundation tasks. Keeping those stages distinct helps maintainers assign work realistically. The public record does not establish that I personally completed every task or that a particular code change caused acceptance.</p>
+<aside class="notes">Explain the evidence, then its boundary. Use the corresponding section in PRESENTATION_GUIDE.md.</aside>
+</section>
+<section id="slide-5" class="">
+<small>5 / 7</small>
+<h1>Use the worksheet on your project</h1>
+<p>For each application question, write the claim, a public reference, what it actually proves, the remaining gap and an owner. Recheck current requirements before applying. The durable takeaway is evidence organization and stewardship, rather than a permanent checklist of foundation rules or a promise that membership creates a contributor community.</p>
+<aside class="notes">Explain the evidence, then its boundary. Use the corresponding section in PRESENTATION_GUIDE.md.</aside>
+</section>
+<section id="slide-6" class="">
+<small>6 / 7</small>
+<h1>Verification boundary</h1>
+<p>Public application #72, renewed application #461 and onboarding #495 inspected. No software execution needed. Historical decisions are evidence; no causal claim about acceptance or contributor growth.</p>
+<aside class="notes">Explain the evidence, then its boundary. Use the corresponding section in PRESENTATION_GUIDE.md.</aside>
+</section>
+<section id="slide-7" class="">
+<small>7 / 7</small>
+<h1>Takeaways</h1>
+<p>- A worksheet linking application claims to public project evidence<br>- A distinction between current CNCF requirements and one project&#x27;s experience<br>- Questions for planning stewardship and contribution processes after acceptance</p>
+<aside class="notes">Explain the evidence, then its boundary. Use the corresponding section in PRESENTATION_GUIDE.md.</aside>
+</section>
+<nav>
+<button id="prev" aria-label="Previous slide">←</button> <button id="next" aria-label="Next slide">→</button>
+</nav>
+<script>let n=0;const s=[...document.querySelectorAll('section')];function show(i){n=Math.max(0,Math.min(s.length-1,i));s.forEach((x,j)=>x.classList.toggle('active',j===n));history.replaceState(null,'','#slide-'+(n+1));}function fromHash(){const m=location.hash.match(/^#slide-(\d+)$/);if(m)show(Number(m[1])-1);}document.addEventListener('keydown',e=>{if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();show(n+1)}if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();show(n-1)}if(e.key==='Home')show(0);if(e.key==='End')show(s.length-1);if(e.key.toLowerCase()==='n')document.body.classList.toggle('notes-on');if(e.key.toLowerCase()==='f')document.documentElement.requestFullscreen?.();});document.querySelector('#prev').onclick=()=>show(n-1);document.querySelector('#next').onclick=()=>show(n+1);window.addEventListener('hashchange',fromHash);fromHash();</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+Title: Preparing a CNCF Sandbox Application: A Maintainer's View from Apicurio Registry
+
+In January 2024, I closed Apicurio Registry's Sandbox application while we resolved branding questions and explored the xRegistry relationship. In March 2026, the renewed application passed its TOC vote; the contribution agreement and onboarding were separate steps. What changed between describing useful software and defining a project ready to join a foundation?
+
+This session follows the public application threads and onboarding checklist through three questions: which repositories and project identity are in scope, how the implementation relates to neighboring standards, and who owns the work after the vote. We connect each answer to public evidence, distinguishing documented events from hindsight and one project's choices from CNCF's current requirements.
+
+Maintainers leave with an evidence worksheet: application question, supporting reference, unresolved gap and owner. We use it to turn broad claims about governance and ecosystem fit into reviewable material, then carry responsibilities into onboarding and ongoing stewardship. Acceptance is a milestone, not a substitute for that work.
+
+Attendees will leave with:
+- A worksheet linking application claims to public project evidence
+- A distinction between current CNCF requirements and one project's experience
+- Questions for planning stewardship and contribution processes after acceptance
