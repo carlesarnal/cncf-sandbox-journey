@@ -8,35 +8,35 @@ In January 2024, I closed Apicurio Registry’s earlier Sandbox application whil
 
 ## 30-minute run of show
 
-### 0:00 — Define the project being contributed
+### 0:00 — The documented 2024 deferral
 
-Say: In January 2024, I closed Apicurio Registry’s earlier Sandbox application while branding questions were resolved and the project explored its relationship with xRegistry. The public comment is useful because it records a decision, not a retrospective invented to make acceptance look inevitable.
+In January 2024, I closed Apicurio Registry’s earlier Sandbox application while branding questions were resolved and the project explored its relationship with xRegistry. The public comment is useful because it records a decision, not a retrospective invented to make acceptance look inevitable.
 
-Show the corresponding diagram, source record or actual command output. Pause to identify the observation that supports the claim.
+Open application #72 at the January 2024 deferral comment.
 
-### 4:00 — A documented 2024 deferral
+### 4:00 — Define project scope and ecosystem fit
 
-Say: The renewed application identifies repository scope and describes the consolidation of Studio functionality. It distinguishes a runtime implementation from a neighboring specification and describes alignment work. These are application statements: a reader should not turn intended conformance or ecosystem positioning into independently verified technical guarantees.
+The renewed application identifies repository scope and describes the consolidation of Studio functionality. It distinguishes a runtime implementation from a neighboring specification and describes alignment work. These are application statements: a reader should not turn intended conformance or ecosystem positioning into independently verified technical guarantees.
 
-Show the corresponding diagram, source record or actual command output. Pause to identify the observation that supports the claim.
+Compare the repository scope and xRegistry discussion in application #461.
 
-### 9:00 — Separate implementation from standard
+### 9:00 — Separate the vote from onboarding
 
-Say: The March 2026 vote passed. A later comment explicitly required the contribution agreement before onboarding, and issue #495 lists project and foundation tasks. Keeping those stages distinct helps maintainers assign work realistically. The public record does not establish that I personally completed every task or that a particular code change caused acceptance.
+The March 2026 vote passed. A later comment explicitly required the contribution agreement before onboarding, and issue #495 lists project and foundation tasks. Keeping those stages distinct helps maintainers assign work realistically. The public record does not establish that I personally completed every task or that a particular code change caused acceptance.
 
-Show the corresponding diagram, source record or actual command output. Pause to identify the observation that supports the claim.
+Show the passed vote, the contribution-agreement requirement and onboarding issue #495.
 
-### 15:00 — Vote and onboarding are different steps
+### 15:00 — Turn claims into an evidence worksheet
 
-Say: For each application question, write the claim, a public reference, what it actually proves, the remaining gap and an owner. Recheck current requirements before applying. The durable takeaway is evidence organization and stewardship, rather than a permanent checklist of foundation rules or a promise that membership creates a contributor community.
+For each application question, write the claim, a public reference, what it actually proves, the remaining gap and an owner. Recheck current requirements before applying. The durable takeaway is evidence organization and stewardship, rather than a permanent checklist of foundation rules or a promise that membership creates a contributor community.
 
-Show the corresponding diagram, source record or actual command output. Pause to identify the observation that supports the claim.
+Fill one row of worksheet.md with a claim, source, unresolved gap and owner.
 
 ### 21:00 — Give each gap an owner
 
-Say: Use the evidence boundary to choose the next action.
+Summarize the decision the example supports and the assumptions behind it.
 
-Show the corresponding diagram, source record or actual command output. Pause to identify the observation that supports the claim.
+Ask which project responsibility continues after the acceptance milestone.
 
 ### 26:00 — Questions and buffer
 
